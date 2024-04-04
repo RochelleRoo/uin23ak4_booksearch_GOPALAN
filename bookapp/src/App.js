@@ -15,6 +15,7 @@ function App() {
         );
         const data = await response.json();
         setBooks(data.docs);
+        console.log(data.docs);
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);

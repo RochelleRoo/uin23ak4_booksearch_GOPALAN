@@ -26,3 +26,14 @@
     margin: 5px 0;
     color: #666;
 }
+  
+.AmazonLink {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+  
+.AmazonLink:hover {
+    text-decoration: underline;
+}
